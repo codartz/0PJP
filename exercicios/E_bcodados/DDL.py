@@ -1,12 +1,12 @@
 """
 ╔════════════════════════════════════════════════════════════════════════════╗
-║            ATIVIDADE PRÁTICA - COMANDOS SQL (DDL)                         ║
+║            ATIVIDADE PRÁTICA - COMANDOS SQL (DDL)                          ║
 ║                                                                            ║
-║  Objetivo: Praticar a escrita e estrutura dos comandos SQL, com base      ║
-║  no conteúdo estudado em aula.                                            ║
+║  Objetivo: Praticar a escrita e estrutura dos comandos SQL, com base       ║
+║  no conteúdo estudado em aula.                                             ║
 ║                                                                            ║
-║  Nota: Esta atividade pode ser realizada sem utilização de MySQL          ║
-║  Workbench, DBeaver, One Compiler e outros.                              ║
+║  Nota: Esta atividade pode ser realizada sem utilização de MySQL           ║
+║  Workbench, DBeaver, One Compiler e outros.                                ║
 ╚════════════════════════════════════════════════════════════════════════════╝
 """
 
@@ -94,7 +94,12 @@
 # Enunciado:
 # Explique, com suas próprias palavras, o que faz o comando SQL abaixo:
 #
-# [Cole o comando SQL aqui]
+#   CREATE TABLE pedidos (
+#       id_pedido INT AUTO_INCREMENT PRIMARY KEY,
+#       data_pedido DATETIME,
+#       valor_total DECIMAL(10,2) NOT NULL,
+#       status VARCHAR(20) DEFAULT 'PENDENTE'
+#   );
 #
 # Resposta:
 
@@ -105,7 +110,11 @@
 # Enunciado:
 # Analise o SQL abaixo e identifique os erros presentes:
 #
-# [Cole o comando SQL aqui]
+#   CREATE TABLE funcionarios (
+#       id INT AUTO_INCREMENT,
+#       nome VARCHAR(100) NOT NULL,
+#       salario DECIMAL(10,2),
+#   );
 #
 # Resposta:
 
