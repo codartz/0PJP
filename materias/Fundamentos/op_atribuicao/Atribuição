@@ -1,0 +1,36 @@
+# Operadores de Atribuição (=, +=, -=, *=, /=, //=, %=, **=)
+
+# = (atribuição simples)
+a = 10
+print(a)  # Saída: 10
+
+# += (adição e atribuição)
+a = 10
+a += 3
+print(a)  # Saída: 13
+
+# -= (subtração e atribuição)
+a = 10
+a -= 4
+print(a)  # Saída: 6
+
+# *= (multiplicação e atribuição)
+a = 10
+a *= 2
+print(a)  # Saída: 20
+
+# /= (divisão e atribuição)
+a /= 4
+print(a)  # Saída: 5.0
+
+# //= (divisão inteira e atribuição)
+a //= 2
+print(a)  # Saída: 4.0
+
+# %= (resto da divisão e atribuição)
+a %= 3
+print(a)  # Saída: 1.0
+
+# **= (potenciação e atribuição)
+a **= 2
+print(a)  # Saída: 1.0

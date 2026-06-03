@@ -1,0 +1,609 @@
+Indice: ➭ ⭢ ⇨ ⬇ ⬎ ↴ ➥➦ ▼
+Ctrl J: Terminal
+Crtl S: Salva o arquivo
+Crtl Z: Salvar tudo
+Crtl P: Acesso a pesquisa
+Print: Crtl + Shift + S ou Win + PrtSc
+Py: python –-version ou -v
+cd ..: Voltar
+
+Crie uma pasta no Desktop “Repositório”
+VsC: File ➥ Open Folder ➥ “Repositório” ➥ New File
+Idioma: Crtl P ➦ Configure Display Language ➦ PT-BR
+
+Terminal ➥ git init ➥ git clone ▼ 
+<> Code ➥ Https ➥ Url ▼
+https://github.com/codartz/Senac.git ▼
+cd Senac ➥ git add PP.py ▼
+git commit -m "Primeiro commit: add PP.py" ▼
+git branch -M main ▼
+git push -u origin main 
+
+================================================================================
+                    GUIA DE ORGANIZAÇÃO DE ENUNCIADOS
+                         Modelo Completo de Referência
+================================================================================
+
+**ÍNDICE**
+1. Estrutura de Cabeçalho
+2. Formatação de Texto
+3. Organização de Seções
+4. Elementos de Estilo
+5. Exemplo Prático Completo
+
+================================================================================
+**1. ESTRUTURA DE CABEÇALHO**
+================================================================================
+
+**MODELO PADRÃO - ENUNCIADO GERAL**
+
+**Título do Enunciado:** [Título Principal e Descritivo]
+**Subtítulo (se aplicável):** [Subtítulo Complementar]
+
+---
+
+**MODELO PARA PROJETOS PRÁTICOS**
+
+**Projeto:** [Nome do Projeto]
+**Tipo:** [Projeto Prático / Projeto Integrador / Avaliação Prática]
+**Nível de Dificuldade:** [Básico / Intermediário / Avançado]
+**Carga Horária:** [X] horas
+
+---
+
+**MODELO PARA ATIVIDADES LABORATORIAIS**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data do Laboratório:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+**Local:** [Sala/Laboratório]
+
+**Experimento/Atividade:** [Título da Atividade]
+**Objetivo Prático:** [Descrição dos objetivos práticos]
+**Duração Estimada:** [X] minutos/horas
+
+---
+
+**MODELO PARA ESTUDOS DE CASO**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Publicação:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Caso de Estudo:** [Título do Caso]
+**Empresa/Contexto:** [Nome da empresa ou contexto estudado]
+**Período Analisado:** [Período temporal]
+**Áreas Envolvidas:** [Listar áreas]
+
+---
+
+**MODELO PARA TRABALHOS EM GRUPO**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Publicação:** [DD/MM/AAAA]
+**Data de Entrega:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Trabalho em Grupo:** [Título do Trabalho]
+**Quantidade de Membros:** [X] a [Y] pessoas
+**Apresentação Necessária:** Sim / Não
+**Formato de Entrega:** [Especificar]
+
+---
+
+**MODELO PARA AVALIAÇÕES**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data da Avaliação:** [DD/MM/AAAA]
+**Hora:** [HH:MM]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Tipo de Avaliação:** [Prova / Questionário / Trabalho / Apresentação]
+**Duração:** [X] minutos
+**Pontuação Total:** [X] pontos
+**Peso na Disciplina:** [X]%
+
+---
+
+**MODELO PARA EXERCÍCIOS INDIVIDUAIS**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Publicação:** [DD/MM/AAAA]
+**Data de Entrega:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Exercício:** [Título/Número do Exercício]
+**Nível de Dificuldade:** [Básico / Intermediário / Avançado]
+**Tempo Estimado:** [X] minutos/horas
+**Pontuação:** [X] pontos
+
+---
+
+**MODELO PARA LISTAS DE EXERCÍCIOS**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Publicação:** [DD/MM/AAAA]
+**Data de Entrega:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Lista:** [Número/Título da Lista]
+**Quantidade de Exercícios:** [X] questões
+**Assuntos Abordados:** [Listar tópicos]
+**Pontuação Total:** [X] pontos
+
+---
+
+**MODELO PARA SEMINÁRIOS/APRESENTAÇÕES**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data da Apresentação:** [DD/MM/AAAA]
+**Horário:** [HH:MM]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Seminário:** [Título do Seminário]
+**Apresentadores:** [Nome dos alunos]
+**Duração:** [X] minutos
+**Local:** [Especificar local]
+**Pontuação:** [X] pontos
+
+---
+
+**MODELO PARA RELATÓRIOS TÉCNICOS**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Publicação:** [DD/MM/AAAA]
+**Data de Entrega:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Relatório:** [Título do Relatório]
+**Tipo:** [Técnico / Experimental / Prático / Teórico]
+**Autores:** [Nome dos alunos]
+**Tema Central:** [Tema do relatório]
+
+---
+
+**MODELO PARA DESAFIOS/COMPETIÇÕES**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Início:** [DD/MM/AAAA]
+**Data de Encerramento:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Desafio:** [Nome/Título do Desafio]
+**Tipo:** [Individual / Dupla / Grupo]
+**Nível de Dificuldade:** [Básico / Intermediário / Avançado]
+**Prêmio/Incentivo:** [Especificar]
+
+---
+
+**MODELO PARA ESTUDOS DIRIGIDOS**
+
+**Instituição:** SENAC-SC
+**Disciplina:** [Nome da Disciplina]
+**Professor:** [Nome do Professor]
+**Data de Publicação:** [DD/MM/AAAA]
+**Data de Entrega:** [DD/MM/AAAA]
+**Semestre:** [Semestre e Ano]
+**Turma:** [Código da Turma]
+
+**Estudo Dirigido:** [Título do Estudo]
+**Assunto Principal:** [Tema a estudar]
+**Objetivos de Aprendizagem:** [X] objetivos
+**Recursos Recomendados:** [Livros, links, materiais]
+
+---
+
+**MODELO COM CAIXA VISUAL (RETÂNGULO)**
+
+```
+╔═════════════════════════════════════════════════════════════════╗
+║                    SENAC-SC - ENUNCIADO                         ║
+╠═════════════════════════════════════════════════════════════════╣
+║  Disciplina: [Nome da Disciplina]                               ║
+║  Professor: [Nome do Professor]                                 ║
+║  Turma: [Código da Turma]    Semestre: [Semestre e Ano]         ║
+║  Data: [DD/MM/AAAA]          Duração: [X] horas                 ║
+╠═════════════════════════════════════════════════════════════════╣
+║  Título: [Título do Enunciado]                                  ║
+║  Tipo: [Tipo de Atividade]                                      ║
+║  Nível: [Básico / Intermediário / Avançado]                     ║
+╚═════════════════════════════════════════════════════════════════╝
+```
+
+Ou versão simplificada:
+
+```
+┌──────────────────────────────────────────────────────────┐
+│           ENUNCIADO - [TÍTULO DA ATIVIDADE]              │
+├──────────────────────────────────────────────────────────┤
+│ Disciplina: [Nome]        |  Data: [DD/MM/AAAA]          │
+│ Professor: [Nome]         |  Turma: [Código]             │
+│ Nível: [Básico/Int/Avan]  |  Duração: [X] min/horas      │
+└──────────────────────────────────────────────────────────┘
+```
+
+---
+
+**TABELAS DE ORGANIZAÇÃO - MODELOS PRONTOS**
+
+**Tabela 1: Informações Gerais do Enunciado**
+
+| Informação | Descrição |
+|-----------|-----------|
+| **Disciplina** | [Nome da Disciplina] |
+| **Professor** | [Nome do Professor] |
+| **Turma** | [Código da Turma] |
+| **Semestre** | [Semestre e Ano] |
+| **Data de Publicação** | [DD/MM/AAAA] |
+| **Data de Entrega** | [DD/MM/AAAA] |
+| **Duração Estimada** | [X] horas |
+
+---
+
+**Tabela 2: Critérios de Avaliação com Pesos**
+
+| # | Critério     |        Descrição        |   Peso    | Pontos |
+|---|--------------|-------------------------|-----------|--------|
+| 1 | [Critério 1] | [Descrição do critério] |   [X]%    |        |
+| 2 | [Critério 2] | [Descrição do critério] |   [X]%    |        |
+| 3 | [Critério 3] | [Descrição do critério] |   [X]%    |        |
+| 4 | [Critério 4] | [Descrição do critério] |   [X]%    |        |
+|   |  **TOTAL**   |                         | **100%**  |        |
+
+---
+
+**Tabela 3: Requisitos de Entrega**
+
+| Requisito | Tipo | Obrigatório | Status |
+|-----------|------|-------------|--------|
+| [Arquivo 1] | [Formato] | Sim ✓ | |
+| [Arquivo 2] | [Formato] | Sim ✓ | |
+| [Arquivo 3] | [Formato] | Não ✗ | |
+| [Documentação] | README.md | Sim ✓ | |
+
+---
+
+**Tabela 4: Tecnologias/Ferramentas Permitidas**
+
+| Linguagem | Versão Mínima | IDE Recomendada | Obrigatório |
+|-----------|--------------|-----------------|-------------|
+| Python | 3.8+ | VS Code / PyCharm | Sim |
+| Java | 11+ | IntelliJ IDEA / Eclipse | Sim |
+| [Tecnologia] | [Versão] | [IDE] | Não |
+
+---
+
+**Tabela 5: Cronograma de Atividades**
+
+| Etapa | Data Início | Data Fim | Descrição | Status |
+|-------|------------|----------|-----------|--------|
+| **1. Planejamento** | [DD/MM] | [DD/MM] | Análise e design | |
+| **2. Desenvolvimento** | [DD/MM] | [DD/MM] | Implementação | |
+| **3. Testes** | [DD/MM] | [DD/MM] | Validação | |
+| **4. Entrega** | [DD/MM] | [DD/MM] | Submissão final | |
+
+---
+
+**Tabela 6: Competências Desenvolvidas**
+
+| Competência | Nível Básico | Nível Intermediário | Nível Avançado |
+|-------------|--------------|-------------------|-----------------|
+| [Competência 1] | ✓ | | |
+| [Competência 2] | ✓ | ✓ | |
+| [Competência 3] | | ✓ | ✓ |
+
+---
+
+**Tabela 7: Comparativo de Abordagens**
+
+| Aspecto | Solução A | Solução B | Solução C |
+|--------|----------|----------|----------|
+| **Complexidade** | Baixa | Média | Alta |
+| **Performance** | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+| **Manutenibilidade** | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **Custo** | Baixo | Médio | Alto |
+
+---
+
+**Tabela 8: Rubrica de Avaliação Detalhada**
+
+| Critério | Insuficiente (0-4) | Básico (5-7) | Proficiente (8-9) | Avançado (10) |
+|----------|-------------------|------------|-------------------|--------------|
+| **Funcionalidade** | Não funciona | Funciona parcialmente | Funciona conforme esperado | Excepcional com extras |
+| **Código** | Desorganizado | Organizado | Bem estruturado | Excelente e otimizado |
+| **Documentação** | Ausente | Incompleta | Completa | Completa e detalhada |
+
+================================================================================
+**2. FORMATAÇÃO DE TEXTO**
+================================================================================
+
+**NEGRITO** - Usado para:
+* Títulos e subtítulos principais
+* Palavras-chave importantes
+* Conceitos fundamentais
+* Nomes de componentes críticos
+
+*Itálico* - Usado para:
+* Ênfase em conceitos
+* Referências a termos externos
+* Nomes de variáveis ou funções
+* Observações adicionais
+
+**MAIÚSCULAS** - Usado para:
+* TÍTULOS DE SEÇÕES PRINCIPAIS
+* NOMES DE ARQUIVOS
+* CONSTANTES E VALORES FIXOS
+
+================================================================================
+**3. ORGANIZAÇÃO DE SEÇÕES**
+================================================================================
+
+**3.1 - OBJETIVOS**
+* Objetivo 1: Descrição clara e concisa
+* Objetivo 2: Descrição clara e concisa
+* Objetivo 3: Descrição clara e concisa
+
+**3.2 - REQUISITOS E PRÉ-REQUISITOS**
+* **Conhecimentos prévios:** [Listar conhecimentos necessários]
+* **Materiais necessários:** [Listar materiais]
+* **Dependências:** [Listar dependências]
+
+**3.3 - DESCRIÇÃO DO PROBLEMA**
+
+Apresente o problema de forma clara e estruturada. Utilize parágrafos bem 
+organizados, começando pela situação geral e evoluindo para detalhes específicos.
+
+Cada parágrafo deve conter uma ideia principal, facilitando a compreensão.
+
+**3.4 - INSTRUÇÕES E PROCEDIMENTOS**
+
+* **Passo 1:** Descrição detalhada da primeira ação
+  - Detalhe 1.1
+  - Detalhe 1.2
+  
+* **Passo 2:** Descrição detalhada da segunda ação
+  - Detalhe 2.1
+  - Detalhe 2.2
+
+* **Passo 3:** Descrição detalhada da terceira ação
+  - Detalhe 3.1
+  - Detalhe 3.2
+
+**3.5 - ENTREGA ESPERADA**
+* Formato do arquivo: [Especificar formato]
+* Nomenclatura: [Padrão de nomeação]
+* Conteúdo mínimo: [Listar requisitos de conteúdo]
+* Data de entrega: [DD/MM/AAAA]
+
+**3.6 - CRITÉRIOS DE AVALIAÇÃO**
+* Critério 1: [Descrição] - Peso: [X]%
+* Critério 2: [Descrição] - Peso: [X]%
+* Critério 3: [Descrição] - Peso: [X]%
+* Critério 4: [Descrição] - Peso: [X]%
+
+================================================================================
+**4. ELEMENTOS DE ESTILO E PONTUAÇÃO**
+================================================================================
+
+**PONTUAÇÃO RECOMENDADA:**
+
+* Use **dois pontos (:)** para introduzir listas
+* Use **vírgula (,)** para separar itens em sequência
+* Use **ponto e vírgula (;)** para separar itens mais complexos
+* Use **travessão (-)** para criar separações visuais
+* Use **parênteses ( )** para informações adicionais
+* Use **aspas (" ")** para citações diretas
+* Use **asteriscos (*) ou (**) para marcação de listas**
+
+**DESTAQUES VISUAIS:**
+
+>>> IMPORTANTE: Use setas e caixas para alertas e informações críticas
+
+!!! ATENÇÃO: Informação que requer cuidado especial !!!
+
+[NOTA] Observações complementares e dicas úteis
+
+================================================================================
+**4.1 - EXTRAS PARA FORMATAÇÃO NO VSCODE**
+================================================================================
+
+**BLOCOS DE CÓDIGO:**
+
+Para adicionar blocos de código com destaque de sintaxe, use:
+
+```python
+# Exemplo de código Python
+def tarefa():
+    print("Executando tarefa")
+```
+
+```java
+// Exemplo de código Java
+public class Tarefa {
+    public void executar() {
+        System.out.println("Executando tarefa");
+    }
+}
+```
+
+**TABELAS (Markdown):**
+
+Use tabelas para organizar informações comparativas:
+
+| Campo | Tipo | Tamanho Máximo | Obrigatório |
+|-------|------|--------|------------|
+| Título | Texto | 100 caracteres | Sim |
+| Descrição | Texto | 500 caracteres | Não |
+| Prioridade | Enum | - | Sim |
+| Data | Data | - | Sim |
+
+**CITAÇÕES E BLOCOS:**
+
+> **Citação importante:** Use aspas em bloco para destacar conceitos-chave
+> que merecem especial atenção do aluno.
+
+**LISTAS ANINHADAS (Multi-nível):**
+
+* Item principal
+  * Subitem 1
+    * Detalhe 1.1
+    * Detalhe 1.2
+  * Subitem 2
+* Outro item principal
+
+**EMOJIS (Opcional):**
+
+✅ Tarefa concluída
+❌ Erro ou não permitido
+⚠️ Aviso importante
+📝 Observação
+🔧 Ferramentas necessárias
+📚 Referências
+💡 Dica útil
+🎯 Objetivo
+📋 Requisito
+
+**LINHA HORIZONTAL:**
+
+Use `---` para separações visuais entre seções
+
+---
+
+**COMENTÁRIOS FORA DA ESTRUTURA:**
+
+<!-- Este comentário não aparece no preview final -->
+<!-- Use para anotações internas que não devem ser visualizadas -->
+
+**ÊNFASE COMBINADA:**
+
+***Texto com negrito e itálico - uso máximo***
+~~Texto riscado - para indicar itens descontinuados~~
+`Código inline` - para mencionar classes, métodos, variáveis
+
+**CHECKBOX (TODO LIST):**
+
+- [x] Requisito já implementado
+- [ ] Requisito pendente
+- [ ] Funcionalidade futura
+
+================================================================================
+**5. EXEMPLO PRÁTICO COMPLETO**
+================================================================================
+
+**ENUNCIADO: Desenvolvimento de Sistema de Gestão de Tarefas**
+
+**Data:** 15/03/2024
+**Professor:** [Nome]
+**Turma:** PJP-2024-01
+
+---
+
+**OBJETIVOS**
+
+* Aplicar conceitos de programação orientada a objetos
+* Desenvolver habilidades de design de interface com usuário
+* Implementar persistência de dados em banco de dados
+* Praticar versionamento com Git
+
+---
+
+**REQUISITOS**
+
+* **Linguagem:** Java ou Python
+* **Banco de Dados:** MySQL ou PostgreSQL
+* **Ferramentas:** IDE (IntelliJ/VS Code), Git
+* **Conhecimento prévio:** POO, SQL básico
+
+---
+
+**DESCRIÇÃO**
+
+Desenvolver uma aplicação desktop para gerenciamento de tarefas pessoais. 
+O sistema deve permitir ao usuário criar, editar, deletar e organizar tarefas 
+por categorias e datas de vencimento.
+
+A aplicação deve possuir uma interface intuitiva com filtros de busca e 
+relatórios simples de produtividade.
+
+---
+
+**FUNCIONALIDADES OBRIGATÓRIAS**
+
+1. **Cadastro de Tarefas**
+   - Campo: Título (máximo 100 caracteres)
+   - Campo: Descrição (máximo 500 caracteres)
+   - Campo: Data de vencimento
+   - Campo: Categoria
+   - Campo: Prioridade (Baixa, Média, Alta)
+
+2. **Edição de Tarefas**
+   - Permitir modificação de todos os campos
+   - Rastrear data da última modificação
+
+3. **Exclusão de Tarefas**
+   - Implementar soft delete (marcar como deletada)
+
+4. **Listagem e Filtros**
+   - Filtrar por categoria
+   - Filtrar por prioridade
+   - Filtrar por data de vencimento
+
+---
+
+**ENTREGA**
+
+* **Formato:** Projeto completo em repositório Git
+* **Prazo:** 30/04/2024
+* **Arquivos obrigatórios:**
+  - Código-fonte organizado em pacotes
+  - Banco de dados com script de criação
+  - README.md com instruções
+  - Diagrama UML
+
+---
+
+**AVALIAÇÃO**
+
+* Funcionalidades implementadas: 40%
+* Qualidade do código: 30%
+* Interface e usabilidade: 20%
+* Documentação: 10%
+
+================================================================================
+                              FIM DO MODELO
+================================================================================
+
+**OBSERVAÇÕES FINAIS:**
+
+Este é um modelo completo e pode ser adaptado conforme necessário.
+Use as seções que forem relevantes e adicione outras conforme o contexto.
+Mantenha a clareza e objetividade em todas as descrições.
+
+================================================================================

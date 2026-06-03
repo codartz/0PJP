@@ -1,0 +1,58 @@
+# ==========================================
+# PYTHON INTERMEDIÁRIO
+# ==========================================
+
+# IF / ELSE
+idade = int(input("Idade: "))
+
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+
+# CONDIÇÕES COMBINADAS
+if 18 <= idade <= 30:
+    print("Entre 18 e 30")
+
+# WHILE
+contador = 0
+
+while contador < 3:
+    print(contador)
+    contador += 1
+
+# FOR
+for i in range(5):
+    print(i)
+
+# BREAK
+for i in range(10):
+    if i == 5:
+        break
+
+# FUNÇÕES
+def soma(a, b):
+    return a + b
+
+print(soma(10, 5))
+
+# FUNÇÃO COM LISTA
+def soma_lista(lista):
+    total = 0
+    for v in lista:
+        total += v
+    return total
+
+print(soma_lista([1, 2, 3]))
+
+# LIST COMPREHENSION
+pares = [x for x in range(10) if x % 2 == 0]
+print(pares)
+
+# LOOP EM DICIONÁRIO
+pessoa = {"nome": "Ana", "idade": 20}
+
+for chave, valor in pessoa.items():
+    print(chave, valor)
+
+print("Fim intermediário")

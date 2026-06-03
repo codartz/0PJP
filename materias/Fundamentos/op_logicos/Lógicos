@@ -1,0 +1,20 @@
+# Operadores lógicos (and, or, not)
+
+# or
+a =5
+b = 10
+resultado = (a > 3 or (b > 15))
+print(resultado) # Saída: True, porque 5 > 3 (True) e 10 > 15 (False), mas basta um ser True
+
+# not
+a = 5
+resultado = not (a < 3)
+print(resultado) # Saída: False, porque 5 > 3 é True, e o 'not' inverte para False
+
+# Praticando...
+a = True
+b = False
+
+print(a and b)  # AND (e lógico): False
+print(a or b)   # OR (ou lógico): True
+print(not a)    # NOT (não lógico): False

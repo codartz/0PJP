@@ -1,0 +1,56 @@
+# ==========================================
+# PYTHON BÁSICO
+# ==========================================
+
+# INPUT / PRINT
+nome = input("Digite seu nome: ")
+print("Olá,", nome)
+print(f"Olá, {nome}!")
+
+# VARIÁVEIS
+idade = 25
+altura = 1.75
+ativo = True
+
+print(idade, altura, ativo)
+
+# TIPOS
+print(type(idade))
+print(type(nome))
+
+# CONVERSÃO
+numero = int(input("Digite um número: "))
+decimal = float(input("Digite um decimal: "))
+
+# FORMATAÇÃO
+valor = 3.14159
+print(f"{valor:.2f}")
+
+# OPERADORES
+a = 10
+b = 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+# LISTAS
+numeros = [1, 2, 3]
+numeros.append(4)
+
+print(numeros)
+
+# TUPLAS
+coord = (10, 20)
+print(coord)
+
+# DICIONÁRIO
+pessoa = {
+    "nome": "Maria",
+    "idade": 30
+}
+
+print(pessoa)
+
+print("Fim básico")

@@ -1,0 +1,36 @@
+# Criar 3 tabelas (MySQL WorkBench)
+# 1) Alunos (nome, telefone, email, data de nascimento, endereço, cpf)
+# 2) Curso (id, nome, quantidade de alunos, local, valor, tempo)
+# 3) Aluno x Curso (campos)
+# https://onecompiler.com/mysql
+
+CREATE TABLE alunos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  telefone VARCHAR(20),
+  email VARCHAR(100) UNIQUE,
+  nasc  DATE,
+  endereço VARCHAR(100) NOT NULL,
+  cpf VARCHAR(14) UNIQUE
+);
+
+CREATE TABLE cursos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL
+  vagas INT,
+  localização VARCHAR(150),
+  valor DECIMAL(10,2),
+  tempo VARCHAR(50)
+);
+
+CREATE TABLE aluno_curso (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  aluno_id INT,
+  curso_id INT,
+  data_matricula DATE,
+
+  FOREIGN KEY (aluno_id) REFERENCES (alunos(id),
+  FOREIGN KEY (curso_id) REFERENCES (curso(id)
+);
+
+show tables;

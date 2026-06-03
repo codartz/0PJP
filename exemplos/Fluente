@@ -1,0 +1,70 @@
+# ==========================================
+# PYTHON FLUENTE
+# ==========================================
+
+# TRATAMENTO DE ERROS
+try:
+    numero = int(input("Digite um número: "))
+except ValueError:
+    print("Erro de entrada")
+
+# ARQUIVOS
+with open("arquivo.txt", "w") as f:
+    f.write("Olá mundo")
+
+with open("arquivo.txt", "r") as f:
+    print(f.read())
+
+# CLASSE
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def mostrar(self):
+        print(self.nome, self.idade)
+
+p1 = Pessoa("Maria", 25)
+p1.mostrar()
+
+# HERANÇA
+class Aluno(Pessoa):
+    def __init__(self, nome, idade, curso):
+        super().__init__(nome, idade)
+        self.curso = curso
+
+    def mostrar_curso(self):
+        print(self.nome, self.curso)
+
+aluno = Aluno("João", 20, "Python")
+aluno.mostrar_curso()
+
+# FUNÇÃO LAMBDA
+dobro = lambda x: x * 2
+print(dobro(5))
+
+# SISTEMA SIMPLES
+def cadastro():
+    banco = []
+
+    for i in range(2):
+        nome = input("Nome: ")
+        idade = int(input("Idade: "))
+
+        pessoa = {
+            "nome": nome,
+            "idade": idade
+        }
+
+        banco.append(pessoa)
+
+    return banco
+
+def listar(dados):
+    for p in dados:
+        print(f"{p['nome']} - {p['idade']} anos")
+
+usuarios = cadastro()
+listar(usuarios)
+
+print("Fim fluente")

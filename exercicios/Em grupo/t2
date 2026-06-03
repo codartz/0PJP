@@ -1,0 +1,113 @@
+
+# 1. Crie uma função soma(a, b) que retorne a soma de dois números.
+def soma(a, b):    return a + b 
+resultado = soma(6, 4)
+print(resultado)
+""
+
+# 2. Crie uma função multiplica(a, b) que retorne o produto.
+def multiplica(a, b):    
+    return a * b
+resultado = multiplica(2, 4)
+print(resultado)
+""
+
+# 3. O que será impresso?
+def dobro(x):    
+    return x * 2
+print(dobro(4))
+# Resposta:
+# 8
+""
+
+# 4. Complete a função: Crie uma função saudacao(nome)
+def saudacao(nome):    
+    return f"Olá, {nome}"
+""
+
+# 5. Crie uma função que receba um número e retorne o triplo dele.
+def triplo(a):    
+    return a * 3
+print(triplo(3))
+# Saída:
+# 9
+""
+
+# 6. O que será impresso?
+def soma(a, b):    
+    return a + b
+print(soma(2, 3) + soma(1, 1))
+# Resposta:
+# 7
+""
+
+# 7. 
+
+# 8. Complete:
+def quadrado(x):    
+    return x * x
+
+# DAQUI PRA FRENTE → RESPOSTAS COPILOT
+
+# 9. Crie uma função que receba um nome e retorne ele em maiúsculo.
+def maiusculo(nome):    
+    return nome.upper()
+
+# 10. O que será impresso?
+def func(x):    
+    return x + 1
+print(func(func(2)))
+# Resposta:
+# 4
+""
+
+# 11. Crie uma função que receba idade e retorne "maior" ou "menor".
+def idade_tipo(idade):    
+    if idade >= 18:        
+        return "maior"    
+    else:        
+        return "menor"
+""
+
+# 12. O que será impresso?
+def teste():    
+    return "ok"
+print(teste())
+    # Resposta:
+    # ok
+""
+
+# 13. Crie uma função que receba um nome e retorne:
+# "Bem-vindo, <nome>!"
+def boas_vindas(nome):    
+    return f"Bem-vindo, {nome}!"
+""
+
+# 14. O que será impresso?
+def calc(a):    
+    return a * 2
+print(calc(3 + 2))
+    # Resposta:
+    # 10
+""
+
+# 15. Crie uma função que receba um número e retorne:
+# "positivo", "negativo" ou "zero"
+def verificar_numero(n):    
+    if n > 0:        
+        return "positivo"    
+    elif n < 0:        
+        return "negativo"    
+    else:        
+        return "zero"
+""
+
+# 16. Desafio final (FizzBuzz):
+def fizzbuzz(n):    
+    if n % 3 == 0 and n % 5 == 0:        
+        return "FizzBuzz"    
+    elif n % 3 == 0:        
+        return "Fizz"    
+    elif n % 5 == 0:        
+        return "Buzz"
+""
