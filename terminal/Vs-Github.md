@@ -1,4 +1,14 @@
 # ==========================================
+# CONFIGURAR GIT (FAÇA UMA VEZ)
+# ==========================================
+
+git config --global user.name "Tais Silva"
+git config --global user.email "264721706+codartz@users.noreply.github.com"
+
+# Verificar configuração
+git config --list
+
+# ==========================================
 # ATUALIZAR + ENVIAR ALTERAÇÕES
 # ==========================================
 
@@ -18,11 +28,3 @@ git commit -m "Atualização"
 git push origin main
 
 # — alternativa para modificações em arquivos já versionados:
-git commit -am "mensagem"   # combina add + commit
-git push
-
-# ==========================================
-# COPIA E COLA
-# ==========================================
-
-git add . && git commit -m "atualização / "
